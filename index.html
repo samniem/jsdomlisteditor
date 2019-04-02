@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>List Changer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class="container">
+        <div>
+            <h2>List Editor</h2>
+            <h3>Background colors</h3>
+            <form class="buttons">
+                <input type="button" onclick="Background(this.value)" value="green" />
+            </form>
+            <form class="buttons">
+                <input type="button" onclick="Background(this.value)" value="red" />
+            </form>
+            <form class="buttons">
+                <input type="button" onclick="Background(this.value)" value="orange" />
+            </form>
+            <form class="buttons">
+                    <input type="button" onclick="Background(this.value)" value="purple" />
+            </form>
+            <form class="buttons">
+                    <input type="button" onclick="Background(this.value)" value="white" />
+            </form>
+            <form class="buttons">
+                    <input type="button" onclick="Background(this.value)" value="black" />
+            </form>
+        </div>
+        <div>
+            <h3>Font settings</h3>
+            <form class="buttons">
+                <input type="button" onclick="FontColor(this.value)" value="green" />
+            </form>
+            <form class="buttons">
+                <input type="button" onclick="FontColor(this.value)" value="red" />
+            </form>
+            <form class="buttons">
+                <input type="button" onclick="FontColor(this.value)" value="orange" />
+            </form>
+            <form class="buttons">
+                    <input type="button" onclick="FontColor(this.value)" value="purple" />
+            </form>
+            <form class="buttons">
+                    <input type="button" onclick="FontColor(this.value)" value="white" />
+            </form>
+            <form class="buttons">
+                    <input type="button" onclick="FontColor(this.value)" value="black" />
+            </form>
+            <br/>
+            <form class="buttons">
+                <input type="button" onclick="FontStyle(this.value)" value="normal" />
+            </form>
+            <form class="buttons">
+                <input type="button" onclick="FontStyle(this.value)" value="italic" />
+            </form>
+            <form class="buttons">
+                <input type="button" onclick="FontStyle(this.value)" value="oblique" />
+            </form>
+            <form class="buttons">
+                <select name="Font Size">
+                    <option onclick="FontSize(this.value)" value="8px">8</option>
+                    <option onclick="FontSize(this.value)" value="10px">10</option>
+                    <option onclick="FontSize(this.value)" value="12px">12</option>
+                    <option onclick="FontSize(this.value)" value="14px">14</option>
+                    <option onclick="FontSize(this.value)" value="16px">16</option>
+                    <option onclick="FontSize(this.value)" value="18px">18</option>
+                    <option onclick="FontSize(this.value)" value="20px">20</option>
+                    <option onclick="FontSize(this.value)" value="22px">22</option>
+                    <option onclick="FontSize(this.value)" value="24px">24</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <h2>List</h2>
+            <ul class="ul-item">
+                <li class="list-item">Item 1</li>
+                <li class="list-item">Item 2</li>
+                <li class="list-item">Item 3</li>
+                <li class="list-item">Item 4</li>
+                <li class="list-item">Item 5</li>
+                <li class="list-item">Item 6</li>
+                <li class="list-item">Item 7</li>
+            </ul>
+        </div>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
